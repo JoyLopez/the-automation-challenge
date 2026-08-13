@@ -184,13 +184,13 @@ npm --version
 Clone the repository:
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone <https://github.com/JoyLopez/the-automation-challenge>
 ```
 
 Navigate to the project directory:
 
 ```bash
-cd qa-automation-challenge
+cd the-automation-challenge-main
 ```
 
 Install project dependencies:
@@ -209,10 +209,26 @@ npx playwright install chromium
 
 # 7. Environment Configuration
 
+The project uses environment variables for the challenge URL and login credentials.
+
+The repository includes .env.example as a template. The actual .env file is intentionally excluded from Git to prevent credentials from being exposed.
+
+``` ### Create the local .env file ```
+```
+#### Windows PowerShell
+
+Copy-Item .env.example .env
+
+#### macOS / Linux
+
+cp .env.example .env
+
+Then open .env and enter the test credentials provided for the technical assessment:
+
 ```env
 CHALLENGE_URL=https://www.theautomationchallenge.com/
-CHALLENGE_EMAIL=joylopez@gmail.com
-CHALLENGE_PASSWORD=Admin12345!
+CHALLENGE_EMAIL=your_test_email@example.com
+CHALLENGE_PASSWORD=your_test_password
 ```
 
 ### Security
