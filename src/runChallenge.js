@@ -213,6 +213,13 @@ function printRow(row, rowNumber) {
         viewport: {
           width: 1440,
           height: 900
+        },
+        recordVideo: {
+          dir: path.resolve(__dirname, '../videos'),
+          size: {
+            width: 1280,
+            height: 720
+          }
         }
       });
 
