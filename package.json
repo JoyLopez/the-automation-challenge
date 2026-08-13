@@ -1,0 +1,22 @@
+{
+  "name": "qa-automation-challenge",
+  "version": "1.0.0",
+  "description": "Playwright automation solution for The Automation Challenge",
+  "main": "ChallengePage.js",
+  "scripts": {
+    "test": "node ChallengePage.js"
+  },
+  "keywords": [
+    "playwright",
+    "qa",
+    "automation",
+    "excel"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "playwright": "^1.62.1",
+    "xlsx": "^0.18.5"
+  }
+}
