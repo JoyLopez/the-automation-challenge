@@ -23,18 +23,7 @@ https://www.theautomationchallenge.com/
 
 ---
 
-# 🎥 Automation Demo
-
-Full 50-row Playwright automation execution demonstrating:
-
-* Authentication
-* Challenge initialization
-* Dynamic field discovery
-* Excel-driven data entry
-* Field validation
-* Record submission
-* Dynamic UI handling
-* Final execution results
+# 🎥 Automation Video
 
 **[▶️ Watch the Full Automation Test Video](https://drive.google.com/file/d/1kPEyD22C2ZdF2xmhiyWaXkEN0Vy4bFLZ/view?usp=drive_link)**
 
